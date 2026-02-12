@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Real-Time Submit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-screen">
+            <h2>TEST TRAINING EXPIRED MGT</h2>
+            <div>Test ini bertujuan agar semua team member yang ikut dalam training faham dengan semua yang di sampaikan pemateri</div>
+            <p></p>
+            <input type="text" id="username" placeholder="Input NRP Team Member (Pastikan benar)..." required>
+            <button onclick="startQuiz()" id="btnmulai">Mulai</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div class="header">
+                <span id="display-name"></span>
+                <div id="timer">10s</div>
+            </div>
+            <div id="question-area">
+                <h3 id="question-text"></h3>
+                <div id="options-container"></div>
+            </div>
+            <button id="submit-per-soal" onclick="processAnswer()" disabled>Kirim Jawaban</button>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h3 id="status-message">Terima kasih, semua jawaban telah terkirim!</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

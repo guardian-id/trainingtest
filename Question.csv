@@ -1,0 +1,50 @@
+﻿1. Menu apa yang digunakan untuk proses out artikel dari Gudang Toko ke Gudang Event?
+A. Scan Out Gudang Toko
+B. Scan Out Gudang Event
+C. Master Gudang Toko
+D. Sales Event
+2. Apa fungsi dari tombol Upload Template pada menu Input Product?
+A. Menghapus data
+B. Upload data jumlah besar sekaligus
+C. Refresh data aplikasi
+D. Scan barcode satu per satu
+3. Apa kegunaan utama dari fitur Pemutihan?
+A. Menambah stok barang
+B. Mencetak laporan sales
+C. Menghapus data agar tidak tercampur di event berikutnya
+D. Scan barang sisa pameran
+4. Dokumen apa yang terbentuk setelah melakukan proses Scan Out Gudang Toko?
+A. Excel Master
+B. PDF Serah Terima
+C. Word Report
+D. Power Point
+5. Menu mana yang digunakan untuk melihat total inventory di Gudang Event dan Booth?
+A. Sales Event
+B. Inv Others Store
+C. Master Gudang Event
+D. Scan Sisa Event
+6. Kapan data Sales Event akan di update setiap harinya?
+A. Hari H
+B. Tidak Akan Update
+C. H+1
+D. Update Setelah Selesai Event
+7. Fitur apa yang digunakan jika pihak eksternal (DFI) ingin membantu scan sisa pameran?
+A. Scan Out Gudang Event
+B. QR Scan External
+C. Master Gudang Toko
+D. Upload Update Backroom
+8. Bagaimana cara mengetahui jika proses Pemutihan telah selesai dilakukan?
+A. Muncul notifikasi suara
+B. Mendapatkan SMS
+C. Mendapatkan email ke toko
+D. Aplikasi tertutup otomatis
+9. Di menu Inv Others Store. Apa fungsi menu tersebut?
+A. Melihat SOH di semua toko
+B. Melihat SOH khusus di satu toko tertentu
+C. Memindahkan stok antar toko
+D. Menghapus data toko
+10. Apa yang dimaksud dengan Selisih pada menu Scan Sisa Pameran?
+A. Total penjualan hari ini
+B. Hasil scan ditambah sisa event
+C. Total Inv Event dikurangi hasil scan
+D. Jumlah barang yang rusak
