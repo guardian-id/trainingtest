@@ -76,7 +76,7 @@ async function startQuiz() {
                 loginScreen.innerHTML = originalContent;
             }
         } else {
-            alert("NRP tidak terdaftar atau NRP anda sudah ter-identifikasi sudah submit.");
+            alert("Nama tidak terdaftar atau NRP and sudah ter-identifikasi sudah submit.");
             loginScreen.innerHTML = originalContent;
         }
     } catch (error) {
@@ -180,5 +180,4 @@ function finishQuiz() {
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('result-screen').classList.remove('hidden');
     document.getElementById('status-message').innerText = "Terima kasih " + userName + ", kuis telah selesai!";
-
 }
