@@ -76,12 +76,12 @@ async function startQuiz() {
                 loginScreen.innerHTML = originalContent;
             }
         } else {
-            alert("Nama tidak terdaftar atau NRP and sudah ter-identifikasi sudah submit.");
+            alert("Nama tidak terdaftar atau NRP anda sudah ter-identifikasi submit.");
             loginScreen.innerHTML = originalContent;
         }
     } catch (error) {
         console.error("CORS atau Koneksi Error:", error);
-        alert("Gagal terhubung ke Power Automate. Pastikan Header CORS sudah disetting.");
+        alert("Gagal terhubung ke Power Automate.");
         loginScreen.innerHTML = originalContent;
     }
 }
