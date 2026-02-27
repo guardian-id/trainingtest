@@ -1,5 +1,5 @@
 // --- KONFIGURASI ---
-const POWER_AUTOMATE_URL = 'https://default9ec0d6c58a25418fb3841c77c55584.c2.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/5675602b8c4e420faaef5e28b321aec2/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=q8seuWU7oqNkjLaIzxoTQdLRbF-6G_gxCx-qFuwG-cc';
+const POWER_AUTOMATE_URL = 'https://default9ec0d6c58a25418fb3841c77c55584.c2.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/2c2e026056c3416c874f4dec1857f40c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=NCUp4lRhOpjTD53pacn9SufpjpXmercQahGCdxkPXk8';
 const CSV_FILE_NAME = 'Question.csv'; 
 
 let questions = [];
@@ -180,4 +180,5 @@ function finishQuiz() {
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('result-screen').classList.remove('hidden');
     document.getElementById('status-message').innerText = "Terima kasih " + userName + ", kuis telah selesai!";
+
 }
