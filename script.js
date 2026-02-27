@@ -122,7 +122,7 @@ function showQuestion() {
 // 5. FUNGSI TIMER
 function startTimer() {
     clearInterval(timer);
-    timeLeft = 15;
+    timeLeft = 25;
     document.getElementById('timer').innerText = `${timeLeft}s`;
 
     timer = setInterval(() => {
@@ -182,3 +182,4 @@ function finishQuiz() {
     document.getElementById('status-message').innerText = "Terima kasih " + userName + ", kuis telah selesai!";
 
 }
+
